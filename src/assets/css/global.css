@@ -1,0 +1,88 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+ Microsoft YaHei, '\5FAE\8F6F\96C5\9ED1', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.iconfont {
+  cursor: pointer;
+}
+.el-scrollbar__wrap{
+  overflow-x: hidden;
+  }
+
+  .clearMusic,
+.backMusic,
+.stopMusic,
+.nextMusic,
+.songMusic {
+  position: absolute;
+  right: 90px;
+  bottom: 28px;
+  width: 20px;
+  font-size: 20px;
+  height: 20px;
+  color: #FF0000;
+  z-index: 99;
+}
+.backMusic {
+  right: 60px;
+  color: #000;
+}
+
+.nextMusic {
+  right: 33px;
+  color: #000;
+}
+.songMusic {
+  right: 5px;
+  font-size: 16px;
+  bottom: 25px;
+  color: #000;
+}
+.aplayer-icon {
+  width: 23px!important;
+  height: 23px!important;
+  bottom: 20px!important;
+  font-size: 10px!important;
+}
+.aplayer-volume-bar-wrap {
+  bottom: 20px!important;
+  right: 3px!important;
+}
+.aplayer-time {
+  right: 10px!important;
+  bottom: 12px!important;
+}
+.aplayer-bar {
+  bottom: 5px!important;
+  width: 99% !important;
+}
+.aplayer-volume {
+  background-color: rgb(255, 0, 0) !important;
+}
+.aplayer-lrc-current {
+  font-size: 14px!important;
+  height: 18px!important;
+  color: #517EAF!important;
+}

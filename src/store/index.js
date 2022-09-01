@@ -5,13 +5,11 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-  },
-  getters: {
+    musicData: {} // 播放音乐数据
   },
   mutations: {
-  },
-  actions: {
-  },
-  modules: {
+    updateData (state, data) {
+      state.musicData = data
+    }
   }
 })
